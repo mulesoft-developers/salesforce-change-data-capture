@@ -45,8 +45,11 @@ Install instructions
 4. In Anypoint Studio, select `File` > `Import` > `Anypoint Studio` > `Anypoint Studio project from File System` and click Next.
 
 5. Select the cloned repository in the Project Root and make sure to **uncheck** the `Copy project into workspace` option.
+	
+6. Update your Salesforce Developer Edition Org credentials in the config.yaml file 
+In Anypoint Studio's package explorer open **src/main/resources** open **config.yaml** and update the username, password and token.
 
-6. Click on Finish.
+7. Click on Finish.
 
 
 ## Contributing

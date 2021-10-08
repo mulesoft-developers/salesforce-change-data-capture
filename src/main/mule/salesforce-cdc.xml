@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:salesforce-composite="http://www.mulesoft.org/schema/mule/salesforce-composite" xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core"
+	xmlns:salesforce="http://www.mulesoft.org/schema/mule/salesforce"
+	xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/salesforce http://www.mulesoft.org/schema/mule/salesforce/current/mule-salesforce.xsd
+http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd
+http://www.mulesoft.org/schema/mule/salesforce-composite http://www.mulesoft.org/schema/mule/salesforce-composite/current/mule-salesforce-composite.xsd">
+	<flow name="salesforce-change-data-capture" doc:id="ee04ac41-f942-4930-9016-05e2df55cf27" >
+		<salesforce:subscribe-channel-listener streamingChannel="/data/ContactChangeEvent" doc:name="Subscribe to Contact Change Event" doc:id="0026c29b-d0a7-428b-bfc1-6ac096c194e1" config-ref="Salesforce_Config"/>
+		<logger level="INFO" doc:name="Log Change Event Payload" doc:id="f8fc4705-9aff-4573-bed8-f4d379dc51a8" message="#[%dw 2.0&#10;output application/json&#10;---&#10;payload.data.payload]"/>
+	</flow>
+</mule>

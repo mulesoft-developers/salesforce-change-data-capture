@@ -1,9 +1,9 @@
 # Change Log
 
-## XX xxX 2021 v1.9.0
+## 08 Oct 2021 v1.0.0
 
 **WHAT'S NEW**
--   x
+-   Inital commit of MuleSoft Anypoint project code
 
 **BUG FIXES**
--   x
+-   None

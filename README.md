@@ -2,7 +2,7 @@
 	<img
 	width="150"
 	src="/images/max-terminal.gif"></br>
-	Subscribing to Salesforce Change Data Capture Events with the Salesforce Connector<br>     
+	Subscribing to Change Data Capture Events with the Salesforce Connector<br>     
 </h1>
 
 <h4 align="center">

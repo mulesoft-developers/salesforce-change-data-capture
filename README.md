@@ -2,7 +2,7 @@
 	<img
 	width="150"
 	src="/images/max-terminal.gif"></br>
-	Subscribing to Salesforce Change Data Capture Events with the Salesforce Connector<br>     
+	Subscribing to Change Data Capture Events with the Salesforce Connector<br>     
 </h1>
 
 <h4 align="center">
@@ -47,7 +47,7 @@ Install instructions
 5. Select the cloned repository in the Project Root and make sure to **uncheck** the `Copy project into workspace` option.
 	
 6. Update your Salesforce Developer Edition Org credentials in the config.yaml file 
-In Anypoint Studio's package explorer open **src/main/resources** open **config.yaml** and update the username, password and token.
+In Anypoint Studio's package explorer open **src/main/resources** open **local.yaml** and update the username, password and token.
 
 7. Click on Finish.
 

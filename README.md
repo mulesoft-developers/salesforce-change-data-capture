@@ -51,7 +51,6 @@ In Anypoint Studio's package explorer open **src/main/resources** open **local.y
 
 7. Click on Finish.
 
-
 ## Contributing
 
 Contributions are what make the MuleSoft community such an amazing place. Any contributions you make are **greatly appreciated**.

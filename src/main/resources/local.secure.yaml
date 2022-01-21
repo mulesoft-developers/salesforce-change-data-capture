@@ -1,0 +1,5 @@
+salesforce:
+  username: "<Your Username>"
+  password: "<Your Encrypted Password"
+  token: "<Your Encrypted Token"
+  authURL: "https://login.salesforce.com/services/Soap/u/53.0"

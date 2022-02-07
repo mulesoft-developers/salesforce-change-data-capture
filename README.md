@@ -46,10 +46,12 @@ Install instructions
 
 5. Select the cloned repository in the Project Root and make sure to **uncheck** the `Copy project into workspace` option.
 	
-6. Update your Salesforce Developer Edition Org credentials in the config.yaml file 
+6. Click on Finish.	
+	
+7. Update your Salesforce Developer Edition Org credentials in the config.yaml file 
 In Anypoint Studio's package explorer open **src/main/resources** open **local.secure.yaml** and update the username, password and token. Note that password and username should be encrypted.
-
-7. Click on Finish.
+	
+8. Ad Runtime Configurations for env and secret.key variables. Set env to local and set secret.key to be the value used to encrypt your secure property parameters.
 
 ## Contributing
 

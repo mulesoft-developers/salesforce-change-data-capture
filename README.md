@@ -49,9 +49,9 @@ Install instructions
 6. Click on Finish.	
 	
 7. Update your Salesforce Developer Edition Org credentials in the config.yaml file 
-In Anypoint Studio's package explorer open **src/main/resources** open **local.secure.yaml** and update the username, password and token. Note that password and username should be encrypted.
+In Anypoint Studio's package explorer open **src/main/resources** open **local.secure.yaml** and update the username, password and token. Note that password and token should be encrypted (see video and tutorial above for details).
 	
-8. Ad Runtime Configurations for env and secret.key variables. Set env to local and set secret.key to be the value used to encrypt your secure property parameters.
+8. Add Runtime Configurations for env and secret.key variables. Set env to local and set secret.key to be the value used to encrypt your secure property parameters.
 
 ## Contributing
 

@@ -12,7 +12,7 @@
 </h4>
 	
 <h3 align="center">
-	Learn how to subscribe to Salesforce CDC events in real-time and look at the message payload<br><br>
+	Learn how to subscribe to Salesforce CDC events in real-time and inspect the inbound message payload<br><br>
 </h3>
 
 ## Tutorial and Video

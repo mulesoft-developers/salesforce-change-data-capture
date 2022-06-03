@@ -53,7 +53,7 @@ In Anypoint Studio's package explorer open **src/main/resources** open **local.s
 	
 8. Add Runtime Configurations for env and secret.key variables. Set env to local and set secret.key to be the value used to encrypt your secure property parameters.
 	
-> This tutorial uses standard objects. To use change data capture events for custom object follow the same steps except for the streaming channel value. For a custom object remove the **c** suffix from the object name. So for a Memo__c custom object the streaming channel is **/data/Memo__ChangeEvent**
+> This tutorial uses standard objects. To use change data capture events for custom objects follow the same steps except for the streaming channel value. For a custom object remove the **c** suffix from the object name. So for a Memo__c custom object the streaming channel is **/data/Memo__ChangeEvent**
 
 ## Contributing
 
